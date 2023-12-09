@@ -1,0 +1,8 @@
+<div class="calendar">
+    <!-- if the match is away, switch the order of the two teams  -->
+    <p> {{OM}} vs {{Calendrier.team}} ({{Calendrier.competition}}) :  {{Calendrier.date | date}}</p>
+    <p *ngIf="Calendrier.location"> Lieu : {{Calendrier.location}} </p>
+    <!-- Change from this button to a link we can click on next to the date that redirects to more infos
+    about the match -->
+    <button (click)="onShowInfo()">Détails</button>
+</div>

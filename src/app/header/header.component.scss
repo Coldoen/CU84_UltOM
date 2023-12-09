@@ -1,0 +1,32 @@
+header {
+    text-align: center;
+    background-color: #EEE;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .headerLogo {
+    width: 200px;
+    height: auto
+  }
+
+  body {
+    background-image: url('../../assets/Armoiries_de_Marseille.svg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+.active {
+    color: #666;
+    text-decoration: underline;
+  }
